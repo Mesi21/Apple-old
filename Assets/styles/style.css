@@ -154,21 +154,22 @@
     font-size: 24px;
 }
 .thumbs{
-    position: relative;
-    top: 640px;
+    position: static;
     display: flex;
     flex-direction: row;;
     justify-content: center;
     align-items: center;
     margin: 0px;
     padding: 0px;
-    width: 100%;
+    width: 93.1%;
     height: 200px;
+    margin-top:550px;
+    margin-bottom: -800px;
 }
 .footer{
-    position: relative;
-    margin: 20px auto;
-    top: 700px; 
+    position: fixed;
+    margin: 20px 200px;
+    bottom: 0px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
