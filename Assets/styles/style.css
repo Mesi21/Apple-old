@@ -2,21 +2,15 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-}
-@media screen and (min-width: 600px) {
-    body {
-        background-color: transparent;
-        margin: auto;
-        }
-    }  
+} 
 .nav-bar{
-    position: fixed;
+    position: static;
     width: 100%;
     top: 0px;
     background: transparent url("../Media/main.jpg") no-repeat;
     background-size: 100%;
     background-position: center top;
-    height: 700px;
+    height: 600px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,12 +22,12 @@
     justify-content: center;
     align-content: center;
     width: 80%;
-    position: relative;
+    position: static;
     padding: 0px 10px;
     border-radius: 5px; 
     height: 45px;
     top: 20px;
-    margin-top:10px;
+    margin-top:20px;
     background: -webkit-linear-gradient(bottom, #666,#5e5e5e 50%,#707070 50%, #808080); 
     background: -moz-linear-gradient(bottom, #666,#5e5e5e 50%,#707070 50%, #808080);    
     background: linear-gradient(bottom, #666,#5e5e5e 50%,#707070 50%, #808080);      
@@ -155,21 +149,20 @@
 }
 .thumbs{
     position: static;
-    display: flex;
-    flex-direction: row;;
-    justify-content: center;
+    display: inline;
     align-items: center;
-    margin: 0px;
-    padding: 0px;
-    width: 93.1%;
-    height: 200px;
-    margin-top:550px;
-    margin-bottom: -800px;
+    margin: auto;
+    padding: 1px 0px;
+    width: 100%;
+}
+.thumbs img{
+    padding: 2px;
+    height: 250px;
+    width: 24.6%;
 }
 .footer{
-    position: fixed;
+    position: static;
     margin: 20px 200px;
-    bottom: 0px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
