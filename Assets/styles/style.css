@@ -1,0 +1,218 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+} 
+.nav-bar{
+    position: static;
+    width: 100%;
+    top: 0px;
+    background: transparent url("../Media/main.jpg") no-repeat;
+    background-size: 100%;
+    background-position: center top;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-bar ul{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    width: 80%;
+    position: static;
+    padding: 0px 10px;
+    border-radius: 5px; 
+    height: 45px;
+    top: 20px;
+    margin-top:20px;
+    background: -webkit-linear-gradient(bottom, #666,#5e5e5e 50%,#707070 50%, #808080); 
+    background: -moz-linear-gradient(bottom, #666,#5e5e5e 50%,#707070 50%, #808080);    
+    background: linear-gradient(bottom, #666,#5e5e5e 50%,#707070 50%, #808080);      
+    line-height: 18px;
+    border: 1px solid rgb(77, 74, 74) ;
+}
+.nav li{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    height: 100%;
+    width: 75%; 
+    text-align: center;
+    padding: 10px 5px;
+    margin: 0px 0px 0px 0px;
+    border-right: 1px solid rgb(51, 51, 51);
+}
+.nav li a{
+  position: relative;
+  margin-top: -10px;
+  top: 15px;
+  list-style: none;
+  width: 106px;
+  vertical-align: middle;
+  height: 36px;
+  text-decoration: none;
+  color: #fff;
+}
+.nav i{
+    position: relative;
+    padding-top: 4px;
+    margin-left: 0px; 
+    right: 8px;
+    z-index: 2;
+    color: #fff;
+}
+#apple{
+    bottom: 5px;
+    margin-bottom: -5px;
+    right: 5px;
+}
+#fa{
+    position: relative;
+    bottom:8px;
+    right: 45px;
+    margin-right: -38px;
+}
+#cont{
+  width: 300px;
+  vertical-align: middle;
+  border-right: 0px;
+  white-space: nowrap;
+  position: relative;
+}
+#cont .icon{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    bottom: 15px;
+    margin-top: 10px;
+    padding-left: 10px;
+    z-index: 1;
+  }
+.nav input#search:focus{
+    outline:none;
+    padding-left: 0px;
+    background: #fff;
+    color:black;
+    width: 100px;
+    transition: width .3s ease-in-out;
+    -webkit-transition: width .3s ease-in-out;
+    -moz-transition: width .3s ease-in-out;
+    -ms-transition: width .3s ease-in-out;
+  }
+.nav input#search{
+  width: 90px;;
+  height:95%;
+  background: transparent;
+  padding-top: 5px;
+  -webkit-box-shadow: 0px -2px 1px#2c2b2b;
+  -moz-box-shadow: 0px -2px 1px #2c2b2b;
+  box-shadow: 0px -2px 1px #2c2b2b;
+  font-size: 10px;
+  float: left;
+  color: #63717f;
+  padding-left: 45px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 12px;
+}
+.headings{
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    margin-top: 150px;
+    text-align: center;
+    z-index: 1;
+    color: #fff;
+}
+.headings a{
+    text-decoration:none;
+    color: #fff;
+}
+.headings a:hover{
+    text-decoration:underline;
+    color: #fff;
+    cursor: pointer;
+}
+.headings h1{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.headings h2{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.headings h3{
+    font-size: 24px;
+}
+.thumbs{
+    position: static;
+    display: inline;
+    align-items: center;
+    margin: auto;
+    padding: 1px 0px;
+    width: 100%;
+}
+.thumbs img{
+    padding: 2px;
+    height: 250px;
+    width: 24.6%;
+}
+.footer{
+    position: static;
+    margin: 20px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 70%;
+    color: #6e6e6e;
+    font-size: 0.800em;
+    line-height: 0.840em;
+}
+.footer a{
+    text-decoration: none;
+    color: #08c;
+}
+.footer1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.footer1 ul{
+    margin-left: 100px;
+}
+.footer1 li{
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    padding: 0px 3px;
+    align-items: center;
+    border-left:1px dashed #ccc;
+    line-height: 0.8000em;
+}
+.footer1 img{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    width: 18px;
+    height: 13px;
+}
+#map{
+    border-left: 0px;
+}
+.footer2{
+    display: flex;
+    flex-direction: row;
+}
+.footer2 p{
+    padding-right: 10px;
+}
+#pol{
+    border-left: 1px dashed #ccc;
+    padding-left: 10px;
+}
